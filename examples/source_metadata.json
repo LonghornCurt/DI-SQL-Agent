@@ -1,0 +1,11 @@
+{
+  "schema_name": "dbo",
+  "table_name": "Customers",
+  "primary_key": ["id"],
+  "columns": [
+    { "name": "id", "data_type": "int", "nullable": false, "is_primary_key": true },
+    { "name": "name", "data_type": "varchar(100)", "nullable": false },
+    { "name": "email", "data_type": "varchar(255)", "nullable": true },
+    { "name": "created_at", "data_type": "datetime", "nullable": false }
+  ]
+}

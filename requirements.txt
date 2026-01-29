@@ -1,0 +1,1 @@
+# No external dependencies for core agent; add if you add DB drivers or CLI extras.
