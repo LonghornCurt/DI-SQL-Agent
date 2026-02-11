@@ -11,7 +11,7 @@ def align_columns(
     use_intersection: bool = True,
 ) -> list[str]:
     """
-    Determine column list for comparison SELECTs.
+    Determine column list   for comparison SELECTs.
 
     - use_intersection=True: only columns present in both tables (default).
     - use_intersection=False: all columns from source; target SELECT uses same order,
